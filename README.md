@@ -150,3 +150,10 @@ slack-connect-frontend/.env.example
 env
 
 VITE_BACKEND_URL=https://localhost:5000
+
+Note:
+This project is currently not deployed due to unresolved API fetch issues encountered during the final integration phase. Despite successfully implementing all core features — including Slack OAuth, message sending, and scheduling — some parts of the frontend were unable to consistently fetch data from the backend in a deployed environment.
+
+I made multiple attempts to troubleshoot the issue, particularly around handling cross-origin HTTPS requests and token-based communication with Slack APIs. While I wasn't able to fully resolve it within the assignment timeframe, I remain committed to debugging the problem and achieving a stable deployment post-submission.
+
+I'm passionate about building reliable and complete solutions, and I’ve learned a great deal from this project — especially around OAuth flows, secure local development, and handling scheduled tasks.
